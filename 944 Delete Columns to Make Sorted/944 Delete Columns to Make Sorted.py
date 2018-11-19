@@ -9,6 +9,6 @@ class Solution:
             for j in range(1, len(A)):
                 if A[j][i] < A[j-1][i]:
                     result += 1
-                    break;
+                    break
         
         return result
