@@ -4,8 +4,7 @@ class Solution:
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        result = [[]]    
-           
+        result = [[]]
         for n in nums:
             result += [r + [n] for r in result]
             
